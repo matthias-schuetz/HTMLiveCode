@@ -1,0 +1,34 @@
+/*
+	Bright theme for CodeMirror
+	Copyright (C) 2012 by Matthias Schuetz
+	http://matthiasschuetz.com
+*/
+
+.cm-s-bright { background:#ffffff; color:#020202; }
+.cm-s-bright .CodeMirror-selected { background:#e5e5e5 !important; }
+.cm-s-bright .CodeMirror-cursor { border-left:2px solid #020202 !important; }
+.cm-s-bright .CodeMirror-lines { margin:0 3px; }
+.cm-s-bright .CodeMirror-gutter { background:#e9e9e9; border-right:1px #e9e9e9 solid !important; padding-right:5px; min-width:2.5em; }
+.cm-s-bright .CodeMirror-gutter-text { color:#8b8b8b; }
+.cm-s-bright .CodeMirror-matchingbracket { border-radius:2px; color:#089ad7 !important; }
+
+.cm-s-bright span.cm-tag { color:#595959; }
+.cm-s-bright span.cm-attribute { color:#40a912; }
+.cm-s-bright span.cm-string { color:#089ad7; }
+.cm-s-bright span.cm-string-2 { color:#40a912; }
+.cm-s-bright span.cm-meta { color:#f25000; }
+.cm-s-bright span.cm-keyword { color:#089ad7; line-height:1em; font-weight:bold; }
+.cm-s-bright span.cm-atom { color:#f25000; }
+.cm-s-bright span.cm-number { color:#f25000; }
+.cm-s-bright span.cm-def { color:#40a912; }
+.cm-s-bright span.cm-variable { color:#020202; }
+.cm-s-bright span.cm-variable-2 { color:#020202; }
+.cm-s-bright span.cm-variable-3 { color:#020202; }
+.cm-s-bright span.cm-property { color:#f25000; }
+.cm-s-bright span.cm-operator { color:#f25000; }
+.cm-s-bright span.cm-comment { color:#9a9a9a; }
+.cm-s-bright span.cm-qualifier { color:#00141d; }
+.cm-s-bright span.cm-bracket { color:#00141d; }
+.cm-s-bright span.cm-error { color:#f20017; }
+.cm-s-bright span.cm-builtin { color:#00141d; }
+.cm-s-bright span.cm-link { color:#00141d; }
