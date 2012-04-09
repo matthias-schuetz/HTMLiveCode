@@ -311,11 +311,11 @@ var HTMLiveCode = function() {
 		},
 		toggleGutter: function() {
 			var isActive = _menuBtnOptionsGutter.getAttribute("class") === "menu-button-active",
-				gutterSetting = isActive ? false : true;
-				_menuBtnOptionsGutter.setAttribute("class", isActive ? "menu-button" : "menu-button-active");
-				_codeMirrorInstance.setOption("lineNumbers", gutterSetting);
-				_codeMirrorInstance.setOption("gutter", gutterSetting);
-				_settingsController.updateStorageSetting("gutter", gutterSetting);
+			gutterSetting = isActive ? false : true;
+			_menuBtnOptionsGutter.setAttribute("class", isActive ? "menu-button" : "menu-button-active");
+			_codeMirrorInstance.setOption("lineNumbers", gutterSetting);
+			_codeMirrorInstance.setOption("gutter", gutterSetting);
+			_settingsController.updateStorageSetting("gutter", gutterSetting);
 		},
 		toggleWordWrap: function() {
 			var isActive = _menuBtnOptionsWordwrap.getAttribute("class") === "menu-button-active",
