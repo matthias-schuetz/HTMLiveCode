@@ -361,6 +361,13 @@ var HTMLiveCode = function() {
 
 	return {
 		init: function() {
+			try {
+				window.localStorage;
+			} catch(e) {
+				alert("Cookies must be enabled in order to use HTMLiveCode.")
+				return false;
+			}
+
 			CodeMirror.keyMap.HTMLiveCode = {
 				"Alt-0": function() { _menuController.changeEditorFontsize(0); },
 				"Alt-I": function() { _menuController.changeEditorFontsize(1); },
