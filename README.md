@@ -5,11 +5,6 @@ HTMLiveCode
 
 HTMLiveCode is a simple editor which is built on top of HTML, CSS and JavaScript. It was made for the editing of these languages and can be used for rapid prototyping. The editor can be customized in its appearance so there are themes and some other editor options. HTMLiveCode is based on CodeMirror and makes use of JSLint and HTML5's localStorage.
 
-<img src="http://matthias-schuetz.github.com/htmlivecode/htmlivecode.png" />
-
-## Demo
-<a href="http://htmlivecode.com/">Click here for a live demonstration.</a>
-
 ## Usage
 
 After loading all necessary files of the folders "js" and "css" in your main file, HTMLiveCode is available in the global namespace and must be instantiated as an object. You don't need any HTML markup as the editor will be attached to the &lt;body&gt; element. You don't need to specify any options since HTMLiveCode can be started with default settings. The editor should be instantiated when the DOM is ready. For example, use the "DOMContentLoaded" event to make sure that everything has been loaded.
